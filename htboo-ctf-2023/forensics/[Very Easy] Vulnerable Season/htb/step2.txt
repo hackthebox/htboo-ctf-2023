@@ -1,0 +1,1 @@
+82.179.92.206 - - [28/Sep/2023:05:07:46 -0400] "GET /wordpress/wp-content/plugins/wp-upg/js/common.js?ver=2.18 HTTP/1.1" 200 588 "http://johnathan.dev/wordpress/" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
