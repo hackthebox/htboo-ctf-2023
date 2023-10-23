@@ -1,0 +1,18 @@
+$ ./chainsaw_x86_64-unknown-linux-gnu                                                                                                                  
+Rapidly work with Forensic Artefacts
+
+Usage: chainsaw_x86_64-unknown-linux-gnu [OPTIONS] <COMMAND>
+
+Commands:
+  dump     Dump an artefact into a different format
+  hunt     Hunt through artefacts using detection rules for threat detection
+  lint     Lint provided rules to ensure that they load correctly
+  search   Search through forensic artefacts for keywords
+  analyse  Perform various analyses on artefacts
+  help     Print this message or the help of the given subcommand(s)
+
+Options:
+      --no-banner                  Hide Chainsaw's banner
+      --num-threads <NUM_THREADS>  Limit the thread number (default: num of CPUs)
+  -h, --help                       Print help
+  -V, --version                    Print version

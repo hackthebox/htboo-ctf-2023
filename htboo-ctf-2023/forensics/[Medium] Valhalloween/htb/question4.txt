@@ -1,0 +1,24 @@
+2023-09-20T03:03:56.908390+00:00,Scheduled Task Creation;Schtasks Creation Or Modification With SYSTEM Privileges;Suspicious Schtasks From Env Var Folder;Suspicious Schtasks Schedule Type With High Privileges,../Logs/Microsoft-Windows-Sysmon%4Operational.evtx,1,Microsoft-Windows-Sysmon,1,3915,DESKTOP-V0F35DT,"CommandLine: schtasks  /CREATE /SC ONLOGON /TN Loki /TR C:\Users\HoaGay\AppData\Roaming\winlogon.exe /RU SYSTEM /RL HIGHEST /F
+Company: Microsoft Corporation
+CurrentDirectory: C:\Windows\system32\
+Description: Task Scheduler Configuration Tool
+FileVersion: 10.0.19041.1503 (WinBuild.160101.0800)
+Hashes: MD5=76CD6626DD8834BD4A42E6A565104DC2
+Image: C:\Windows\System32\schtasks.exe
+IntegrityLevel: High
+LogonGuid: 335CB4AA-604E-650A-56B4-040000000000
+LogonId: '0x4b456'
+OriginalFileName: schtasks.exe
+ParentCommandLine: '""C:\Windows\System32\cmd.exe"" /C schtasks /CREATE /SC ONLOGON /TN Loki /TR C:\Users\HoaGay\AppData\Roaming\winlogon.exe /RU SYSTEM /RL HIGHEST /F'
+ParentImage: C:\Windows\System32\cmd.exe
+ParentProcessGuid: 335CB4AA-611C-650A-1001-000000000D00
+ParentProcessId: 8052
+ParentUser: DESKTOP-V0F35DT\HoaGay
+ProcessGuid: 335CB4AA-611C-650A-1201-000000000D00
+ProcessId: 5336
+Product: Microsoft® Windows® Operating System
+RuleName: '-'
+TerminalSessionId: 1
+User: DESKTOP-V0F35DT\HoaGay
+UtcTime: 2023-09-20 03:03:56.902
+"
