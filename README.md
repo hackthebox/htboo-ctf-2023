@@ -17,7 +17,7 @@
 | **Reversing** | [GhostInTheMachine](htboo-ctf-2023/rev/[Very%20Easy]%20GhostInTheMachine) | binary patching | ⭐ |
 | **Forensics** | [Bat Problems](htboo-ctf-2023/forensics/[Very%20Easy]%20Bat%20Problems) | obfuscated .bat malware | ⭐ |
 | **Forensics** | [Spooky phising](htboo-ctf-2023/forensics/[Very%20Easy]%20Spooky%20phishing) | malware delivery via phishing  | ⭐ |
-| **Forensics** | [Vulnerable Season](htboo-ctf-2023/forensics/[Very%20Easy]%20Bat%20Problems) | webserver log analysis | ⭐ |
+| **Forensics** | [Vulnerable Season](htboo-ctf-2023/forensics/[Very%20Easy]%20Vulnerable%20Season) | webserver log analysis | ⭐ |
 | **Crypto** | [Hexoding64](htboo-ctf-2023/crypto/[Very%20Easy]%20Hexoding64)| encodings | ⭐|
 | **Crypto** | [SPG](htboo-ctf-2023/crypto/[Very%20Easy]%20SPG) | deterministing password generator | ⭐ |
 | **Crypto** | [yesnce](htboo-ctf-2023/crypto/[Very%20Easy]%20yesnce) | AES CTR nonce reuse | ⭐ |
