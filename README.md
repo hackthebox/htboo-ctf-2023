@@ -21,9 +21,9 @@
 | **Forensics** | [Bat Problems](htboo-ctf-2023/forensics/[Very%20Easy]%20Bat%20Problems) | obfuscated .bat malware | ⭐ |
 | **Forensics** | [Spooky phising](htboo-ctf-2023/forensics/[Very%20Easy]%20Spooky%20phishing) | malware delivery via phishing  | ⭐ |
 | **Forensics** | [Vulnerable Season](htboo-ctf-2023/forensics/[Very%20Easy]%20Vulnerable%20Season) | webserver log analysis | ⭐ |
-| **Forensics** | [Trick or Treat](htboo-ctf-2023/forensics/[VEasy]%20Trick%20or%20Treat) | Malware delivery via malicious lnk and payload decode on executio | ⭐⭐ |
+| **Forensics** | [Trick or Treat](htboo-ctf-2023/forensics/[Easy]%20Trick%20or%20Treat) | Malware delivery via malicious lnk and payload decode on executio | ⭐⭐ |
 | **Crypto** | [Hexoding64](htboo-ctf-2023/crypto/[Very%20Easy]%20Hexoding64)| encodings | ⭐|
 | **Crypto** | [SPG](htboo-ctf-2023/crypto/[Very%20Easy]%20SPG) | deterministing password generator | ⭐ |
 | **Crypto** | [yesnce](htboo-ctf-2023/crypto/[Very%20Easy]%20yesnce) | AES CTR nonce reuse | ⭐ |
-| **Crypto** | [Symbols](htboo-ctf-2023/crypto/[Very%20Easy]%20Symbols) | Determine the bits based on legendre symbol | ⭐⭐|
+| **Crypto** | [Symbols](htboo-ctf-2023/crypto/[Easy]%20Symbols) | Determine the bits based on legendre symbol | ⭐⭐|
 
