@@ -10,7 +10,7 @@
 | **Web** | [SpookTastic](htboo-ctf-2023/web/[Very%20Easy]%20SpookTastic) | script tag ommited XSS | ⭐ |
 | **Web** | [HauntMArt](htboo-ctf-2023/web/[Easy]%20HauntMart) | SSRF filter bypass | ⭐⭐ |
 | **Web** | [PumpkinSpice](htboo-ctf-2023/web/[Easy]%20PumpkinSpice) | XSS to blind command injection | ⭐⭐ |
-| **Web** | [Ghostly Templates](htboo-ctf-2023/web/[Medium]%20Ghostly%20Templates) | Golang templates SSTI to LFI. | ⭐⭐⭐ |
+| **Web** | [GhostlyTemplates](htboo-ctf-2023/web/[Medium]%20GhostlyTemplates) | Golang templates SSTI to LFI. | ⭐⭐⭐ |
 | **Pwn** | [Lemonade Stand v1](htboo-ctf-2023/pwn/[Very%20Easy]%20Lemonade%20Stand%20v1) |  ret2win | ⭐ |
 | **Pwn** | [Lesson](htboo-ctf-2023/pwn/[Very%20Easy]%20Lesson) |  pwn 101 lesson | ⭐ |
 | **Pwn** | [Magic Trick](htboo-ctf-2023/pwn/[Very%20Easy]%20Magic%20Trick) | ret2shellcode | ⭐ |
