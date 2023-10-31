@@ -1,0 +1,23 @@
+$ ./chainsaw_x86_64-unknown-linux-gnu hunt -m mappings/sigma-event-logs-all.yml -r rules/ -s sigma/rules ../Logs --csv -o results --timezone UTC --full
+
+ ██████╗██╗  ██╗ █████╗ ██╗███╗   ██╗███████╗ █████╗ ██╗    ██╗
+██╔════╝██║  ██║██╔══██╗██║████╗  ██║██╔════╝██╔══██╗██║    ██║
+██║     ███████║███████║██║██╔██╗ ██║███████╗███████║██║ █╗ ██║
+██║     ██╔══██║██╔══██║██║██║╚██╗██║╚════██║██╔══██║██║███╗██║
+╚██████╗██║  ██║██║  ██║██║██║ ╚████║███████║██║  ██║╚███╔███╔╝
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝
+    By WithSecure Countercept (@FranticTyping, @AlexKornitzer)
+
+[+] Loading detection rules from: rules/, sigma/rules
+[!] Loaded 2681 detection rules (147 not loaded)
+[+] Loading forensic artefacts from: ../Logs (extensions: .evtx, .evt)
+[+] Loaded 364 forensic artefacts (121.4 MB)
+[+] Hunting: [========================================] 364/364                                                                                                                                                                            
+[+] Created account_tampering.csv
+[+] Created antivirus.csv
+[+] Created microsoft_rds_events_-_user_profile_disk.csv
+[+] Created powershell_script.csv
+[+] Created rdp_events.csv
+[+] Created sigma.csv
+
+[+] 467 Detections found on 436 documents

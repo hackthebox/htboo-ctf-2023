@@ -1,0 +1,35 @@
+$ ./chainsaw_x86_64-unknown-linux-gnu hunt -h                                                                                                          
+Hunt through artefacts using detection rules for threat detection
+
+Usage: chainsaw_x86_64-unknown-linux-gnu hunt [OPTIONS] [RULES] [PATH]...
+
+Arguments:
+  [RULES]    The path to a collection of rules to use for hunting
+  [PATH]...  The paths containing files to load and hunt through
+
+Options:
+  -m, --mapping <MAPPING>            A mapping file to tell Chainsaw how to use third-party rules
+  -r, --rule <RULE>                  A path containing additional rules to hunt with
+  -c, --cache-to-disk                Cache results to disk to reduce memory usage at the cost of performance
+      --column-width <COLUMN_WIDTH>  Set the column width for the tabular output
+      --csv                          Print the output in csv format
+      --extension <EXTENSION>        Only hunt through files with the provided extension
+      --from <FROM>                  The timestamp to hunt from. Drops any documents older than the value provided. (YYYY-MM-ddTHH:mm:SS)
+      --full                         Print the full values for the tabular output
+  -j, --json                         Print the output in json format
+      --jsonl                        Print the output in jsonl format
+      --kind <KIND>                  Restrict loaded rules to specified kinds
+      --level <LEVEL>                Restrict loaded rules to specified levels
+      --load-unknown                 Allow chainsaw to try and load files it cannot identify
+      --local                        Output the timestamp using the local machine's timestamp
+      --metadata                     Display additional metadata in the tablar output
+  -o, --output <OUTPUT>              A path to output results to
+      --log                          Print the output in log like format
+      --preprocess                   (BETA) Enable preprocessing, which can result in increased performance
+  -q                                 Supress informational output
+  -s, --sigma <SIGMA>                A path containing Sigma rules to hunt with
+      --skip-errors                  Continue to hunt when an error is encountered
+      --status <STATUS>              Restrict loaded rules to specified statuses
+      --timezone <TIMEZONE>          Output the timestamp using the timezone provided
+      --to <TO>                      The timestamp to hunt up to. Drops any documents newer than the value provided. (YYYY-MM-ddTHH:mm:SS)
+  -h, --help                         Print help

